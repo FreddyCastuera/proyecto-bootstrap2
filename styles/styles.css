@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.morado {
+  background-color: purple;
+  color: white;
+}
+
+.icono {
+  width: 25px;
+}
+
+.ms-lg-2 {
+  margin-left: 10% !important;
+}
+
+.ms-lg-4 {
+  margin-left: 20% !important;
+}
+
+.mt-lg-2 {
+  margin-top: 10% !important;
+}
+
+.mt-lg-4 {
+  margin-top: 20% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .ms-lg-2, .ms-lg-4 {
+    margin-left: 0 !important;
+  }
+
+  .mt-lg-2, .mt-lg-4 {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=styles.css.map */
